@@ -1,0 +1,90 @@
+nav{
+    box-shadow: 5px 5px 5px rgba(1, 1, 1, 0.05);
+    padding-bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: rgb(209, 200, 200);
+    z-index: 50;
+}
+nav a{
+    float: right;
+    padding-top: 20px;
+    padding-right: 36px;
+    text-decoration: none;
+    color: rgb(99, 160, 8);
+}
+nav a:hover{
+    font-size: larger;
+    color: brown    ;
+}
+.logo{
+    margin-bottom: -24px;
+}
+nav img{
+    margin-top: -25px
+}
+.interface{
+    display: flex;
+}
+.food img{
+    margin: 53px 73px 43px 171px;
+}
+.headline{
+    margin-top: 130px;
+}
+.headline a{
+    font-size: large ;
+    text-decoration: none;
+    cursor: pointer;
+    background-color: yellow;
+    color: brown;
+    padding: 5px;
+}
+.headline a:hover{
+    font-size: x-large;
+}
+.facility{
+    display: flex;
+    margin-top: 70px;
+    text-align: justify;
+}
+.bike, .voucher, .mart{
+    padding: 10px 179px 0px 100px;
+}
+.bike{
+    margin-top: -27px;
+}
+.tag1{
+    background-color: #1ceb1c;
+    padding: 5px;
+    text-align: center;
+    margin: 30px 44%;
+    font-size: xx-large;
+}
+.tag2{
+    text-align: center;
+    font-size: x-large;
+    font-weight: bold;
+    font-style: italic;
+}
+.grid{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+img{
+    border-radius: 10px;
+    padding: 5px;
+}
+footer{
+    display: flex;
+    background-color: bisque;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.img:hover{
+    transform: scale(0.9);
+    transition: 0.5s;
+}
